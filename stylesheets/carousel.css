@@ -1,4 +1,4 @@
-/* GLOBAL STYLES
+f/* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
@@ -37,8 +37,10 @@ body {
 
 /* Carousel base class */
 .carousel {
-  height: 620px;
+  height: 650px;
   margin-bottom: 0px;
+  min-width: 100%;
+  min-height: 100%;
 
 }
 /* Since positioning the image, we need to help out the caption */
@@ -49,7 +51,7 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 670px;
+  height: 700px;
   background-color: #777;
 }
 .carousel-inner > .item > img {
