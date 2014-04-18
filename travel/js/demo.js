@@ -14,6 +14,9 @@
 
 $(function () {
     'use strict';
+  
+  $('#blueimp-gallery').data('useBootstrapModal', !true);
+  $('#blueimp-gallery').toggleClass('blueimp-gallery-controls', true);
 
     $('#fullscreen-checkbox').on('change', function () {
         $('#blueimp-gallery').data('fullScreen', $(this).is(':checked'));
