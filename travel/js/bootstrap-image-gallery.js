@@ -39,7 +39,7 @@
     $.extend(Gallery.prototype, {
 
         modalFactory: function (obj, callback, factoryInterface, factory) {
-            if (!this.options.useBootstrapModal || factoryInterface) {
+            if (true || factoryInterface) {
                 return factory.call(this, obj, callback, factoryInterface);
             }
             var that = this,
