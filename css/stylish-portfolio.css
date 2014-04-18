@@ -151,11 +151,11 @@ i.service-icon {
 /* Callout */
 
 .callout {
-  color: #ffffff;
+  color: #000000;
   display: table;
   height: 400px;
   width: 100%;
-  background: url(../img/callout.jpg) no-repeat center center fixed; 
+  background: url(../pictures/book.jpg) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
