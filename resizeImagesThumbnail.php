@@ -75,7 +75,7 @@
     }
     // End of SimpleImage class
     // Define the path as relative
-    $path = "/Users/Caren/Desktop/spain/";
+    $path = "/Users/Caren/Desktop/summer/";
     
     // Using the opendir function
     $dir_handle = @opendir($path) or die("ERROR: Cannot open  <b>$path</b>");
@@ -89,9 +89,9 @@
         if($file != "." && $file != "..")
         {
             $image = new SimpleImage();
-            $image->load("spain/".$file);
+            $image->load("summer/".$file);
             $image->resize(300, 200);
-            $image->save("spainThumbnails/thumbnail".$numOfPicture.".JPG");
+            $image->save("summerThumbnails/thumbnail".$numOfPicture.".JPG");
         }
         $numOfPicture = $numOfPicture + 1;
     }
