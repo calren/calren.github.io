@@ -2512,7 +2512,7 @@
 		}
 
 		#header strong, #header b {
-			color: #ffffff;
+            color: #d8e6ad;
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2520,7 +2520,7 @@
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(255, 255, 255, 0.8);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
